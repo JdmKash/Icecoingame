@@ -49,12 +49,12 @@
 
 <body>
 
-    <div class="min-h-screen bg-gradient-to-r from-[#C7913D] to-[#F1D06E] flex justify-center items-center p-3">
-        <div class="bg-gradient-to-r from-[#C7913D] to-[#F1D06E] rounded-3xl shadow-2xl p-4 w-full max-w-md text-white">
+    <div class="min-h-screen bg-gradient-to-r from-[#e6b971] to-[#F1D06E] flex justify-center items-center p-3">
+        <div class="bg-gradient-to-r from-[#e6b971] to-[#F1D06E] rounded-3xl shadow-2xl p-4 w-full max-w-md text-white">
             <div class="flex justify-between items-center mb-4 bg-slate-900/10 rounded-3xl shadow-xl">
                 <div class="flex items-center">
                     <img src="./assets/images/logoo.jpg" width="40px" height="40px" alt="User Avatar" class="rounded-full mr-2">
-                    <span id="userName">Bota</span>
+                    <span id="userName">JannyM0ney</span>
                 </div>
                 <button onclick="myFunction()" class="bg-600 p-2 rounded-full flex justify-between items-center bg-slate-900/10 hover:bg-slate-900/5 rounded-3xl">
                     <span class="font-bold text-lg">2X Coins</span>
@@ -208,7 +208,7 @@ function updateInventory() {
     document.getElementById('inventory-fill').style.width = `${(inventory / maxInventory) * 100}%`;
 
     var formData = new FormData();
-    formData.append('username', 'Alex');
+    formData.append('username', 'Janny');
     formData.append('charge', inventory);
 
     fetch('update.php', {
