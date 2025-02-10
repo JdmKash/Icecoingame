@@ -250,7 +250,7 @@ body {
 }
 
 .boost {
-    background: linear-gradient(rgb(232, 208, 110) , rgb(199, 145, 61));
+    background: linear-gradient(rgb(46, 78, 165), rgb(30, 58, 138));
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #ffffff;
